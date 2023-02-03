@@ -14,3 +14,6 @@ jobs:
 
     - name: Generate deployment package
       run: mvn -B package --file pom.xml
+
+    - name: dsa
+      run: zip-r asdkas
